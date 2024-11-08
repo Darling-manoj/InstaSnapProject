@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser Luanched Succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Login Succesfull]]>
+    </line>
+    <line>
+      <![CDATA[Electronic Product Created]]>
+    </line>
+    <line>
+      <![CDATA[Logout Succesfull]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed Succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser Luanched Succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Login Succesfull]]>
+    </line>
+    <line>
+      <![CDATA[Kids Product Created]]>
+    </line>
+    <line>
+      <![CDATA[Logout Succesfull]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed Succesfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-07T16:29:26 IST" name="RegressionTestSuite" finished-at="2024-11-07T16:29:26 IST" duration-ms="137">
+    <groups>
+    </groups>
+    <test started-at="2024-11-07T16:29:26 IST" name="ChromeTest" finished-at="2024-11-07T16:29:26 IST" duration-ms="137">
+      <class name="com.Ecommerce.InstaSnap.ProductTest.VerifyKidsProduct">
+        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:com.Ecommerce.InstaSnap.ProductTest.VerifyKidsProduct@791f145a]" started-at="2024-11-07T16:29:26 IST" name="BrowserSetup" finished-at="2024-11-07T16:29:26 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Luanched Succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BrowserSetup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Ecommerce.InstaSnap.ProductTest.VerifyKidsProduct@791f145a]" started-at="2024-11-07T16:29:26 IST" name="login" finished-at="2024-11-07T16:29:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Succesfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createProduct()[pri:1, instance:com.Ecommerce.InstaSnap.ProductTest.VerifyKidsProduct@791f145a]" started-at="2024-11-07T16:29:26 IST" name="createProduct" finished-at="2024-11-07T16:29:26 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Kids Product Created]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createProduct -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Ecommerce.InstaSnap.ProductTest.VerifyKidsProduct@791f145a]" started-at="2024-11-07T16:29:26 IST" name="logout" finished-at="2024-11-07T16:29:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout Succesfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="TerminateBrowser()[pri:0, instance:com.Ecommerce.InstaSnap.ProductTest.VerifyKidsProduct@791f145a]" started-at="2024-11-07T16:29:26 IST" name="TerminateBrowser" finished-at="2024-11-07T16:29:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed Succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TerminateBrowser -->
+      </class> <!-- com.Ecommerce.InstaSnap.ProductTest.VerifyKidsProduct -->
+      <class name="com.Ecommerce.InstaSnap.ProductTest.VerifyElectronicProduct">
+        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:com.Ecommerce.InstaSnap.ProductTest.VerifyElectronicProduct@5824a83d]" started-at="2024-11-07T16:29:26 IST" name="BrowserSetup" finished-at="2024-11-07T16:29:26 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Luanched Succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BrowserSetup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Ecommerce.InstaSnap.ProductTest.VerifyElectronicProduct@5824a83d]" started-at="2024-11-07T16:29:26 IST" name="login" finished-at="2024-11-07T16:29:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Succesfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createProduct()[pri:1, instance:com.Ecommerce.InstaSnap.ProductTest.VerifyElectronicProduct@5824a83d]" started-at="2024-11-07T16:29:26 IST" name="createProduct" finished-at="2024-11-07T16:29:26 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Electronic Product Created]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createProduct -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Ecommerce.InstaSnap.ProductTest.VerifyElectronicProduct@5824a83d]" started-at="2024-11-07T16:29:26 IST" name="logout" finished-at="2024-11-07T16:29:26 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout Succesfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="TerminateBrowser()[pri:0, instance:com.Ecommerce.InstaSnap.ProductTest.VerifyElectronicProduct@5824a83d]" started-at="2024-11-07T16:29:26 IST" name="TerminateBrowser" finished-at="2024-11-07T16:29:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed Succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TerminateBrowser -->
+      </class> <!-- com.Ecommerce.InstaSnap.ProductTest.VerifyElectronicProduct -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- RegressionTestSuite -->
+</testng-results>
